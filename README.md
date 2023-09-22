@@ -9,7 +9,10 @@ Repository to kick start your journey with GitHub Actions
 6) Bydefault you have to execute the piepline
 7) No limitation we can keep any no. of actions files.
 8) As soon as we commit, it will checkout the code and it has to create a python evn for us (python-example is used here) be'coz we don't not configure any server
-9) In jenkins we have servers pre-configured like docker containers or worker nodes 
+9) In jenkins we have servers pre-configured like docker containers or worker nodes
+10) If we can using 3 jobs then it is like we are using 3 jenkins pieplines
+11) Under steps : users : it is not configured it is plugin (checkout@v3)
+12) Ref link ``` https://docs.github.com/en/actions/quickstart ```
 
 ## Comparing with Jenkins 
 

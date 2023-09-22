@@ -8,6 +8,8 @@ Repository to kick start your journey with GitHub Actions
 5) can we use any no. of actions on ``` on ``` like push,commit, issues, pill it will work like either of the actions should be done in the repo side.
 6) Bydefault you have to execute the piepline
 7) No limitation we can keep any no. of actions files.
+8) As soon as we commit, it will checkout the code and it has to create a python evn for us (python-example is used here) be'coz we don't not configure any server
+9) In jenkins we have servers pre-configured like docker containers or worker nodes 
 
 ## Comparing with Jenkins 
 

@@ -1,6 +1,14 @@
 # GitHub-Actions-Zero-to-Hero
 Repository to kick start your journey with GitHub Actions
 
+1) No need of any plugins
+2) We have to create a folder in the repository like .github/workflows 
+3) in the workflows we can write our github-actions file which is in yml like first-actions.yml (pipeline)
+4) in the ymal file, ``` on ``` is used to actions like push, commit .. whenever there is a action in the repo
+5) can we use any no. of actions on ``` on ``` like push,commit, issues, pill it will work like either of the actions should be done in the repo side.
+6) Bydefault you have to execute the piepline
+7) No limitation we can keep any no. of actions files.
+
 ## Comparing with Jenkins 
 
 ### Advantages of GitHub Actions over Jenkins

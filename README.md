@@ -39,6 +39,9 @@ Here runs-on == if we mention ubuntu then it will take ubuntu and run on it. If 
 # -------
 
 ## Comparing with Jenkins 
+1) If it is public project then GITHUB ACTIONS are high preffered (Open source)
+2) Because we will entire servers for free microsoft provides free servers
+3) If the project is private project it is recommmended to use JENKINS it has a lot of options or features like docker, plugins and etc
 
 ### Advantages of GitHub Actions over Jenkins
 
@@ -53,5 +56,16 @@ Here runs-on == if we mention ubuntu then it will take ubuntu and run on it. If 
 - Integration: Jenkins can integrate with a wide range of tools and services, but GitHub Actions is tightly integrated with the GitHub platform, making it easier to automate tasks related to your GitHub workflow.
 
 In conclusion, Jenkins is better suited for complex and large-scale automation tasks, while GitHub Actions is a more cost-effective and user-friendly solution for simple to moderate automation needs.
+
+# Interview Questions
+1) Why Github actions, we have tools like jenkins or aws cloud build ? Why you have chosen Github Actions ?
+A) 1.1) We are using public project so that code is in github, it makes easy for CI-CD process
+   1.2) Our project is already in github and we manage everything in github for ex not jsut the cicd we also do our agile - scurm in projects option present in github, we use confluence pages as gihutb wiki, we also use the security and we use insights as well.
+
+2) How do you secure the sensitive information in GITHUB ?
+A) In Repo settings we use the SECRETS AND VARIABLES OPTION
+
+3) How do you write a Github CI File.
+A) in the repo, we create .github/workflow folder --> in that we write our ci files with the extension .yml
 
 

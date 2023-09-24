@@ -31,7 +31,8 @@ Here runs-on == if we mention ubuntu then it will take ubuntu and run on it. If 
 3) Click on Add new runner
 4) ![image](https://github.com/pavankumar0077/GitHub-Actions-Zero-to-Hero/assets/40380941/afe1be4a-3c50-4382-ac14-3a0f506c75d5)
 5) We have download option where we have instruction or commands to run, Follow as menioned.
-6) 
+6) ![image](https://github.com/pavankumar0077/GitHub-Actions-Zero-to-Hero/assets/40380941/79d4b791-a202-4459-9c66-638c7d820c7e)
+7) In the github we will see the green mark that means runner done with the job.
 
 
 

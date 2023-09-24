@@ -21,7 +21,17 @@ Repository to kick start your journey with GitHub Actions
 3) When it comes to enterpirse or private project, Runner provided by github is not expected to run for our application wch needs more cpu or ram like that, then we will go with self hosted runners (Security, private repo's, runner not matching with the requirements) -- SELF HOSTED RUNNERS
 4) Use only Http and HTTPS ports -- in inbound and out bound rules --- EC2 instances.
 
-5) 
+# SETUP Self hosted Runners
+NOTE: In the workflow folder we have created a first-actions.yml file where we have option to switch between github hosted runner and self hosted runners
+![image](https://github.com/pavankumar0077/GitHub-Actions-Zero-to-Hero/assets/40380941/502f9e7a-04e0-4825-a573-e9233b275173)
+Here runs-on == if we mention ubuntu then it will take ubuntu and run on it. If we select runs-on == self-hosted then it will selected the runner that we have created
+
+1) Go to github repo settings
+2) Actions --> Runners
+3) Click on Add new runner
+4) ![image](https://github.com/pavankumar0077/GitHub-Actions-Zero-to-Hero/assets/40380941/afe1be4a-3c50-4382-ac14-3a0f506c75d5)
+5) We have download option where we have instruction or commands to run, Follow as menioned.
+6) 
 
 
 

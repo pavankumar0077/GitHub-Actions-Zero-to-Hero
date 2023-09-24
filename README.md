@@ -14,6 +14,19 @@ Repository to kick start your journey with GitHub Actions
 11) Under steps : users : it is not configured it is plugin (checkout@v3)
 12) Ref link ``` https://docs.github.com/en/actions/quickstart ```
 
+# Github Runners
+--
+1) **SELF HOSTED RUNNERS** : Runner is a place where our job gets run. (In jenkins we called it as Agent node - where our app'n gets run on jenkins)
+2) **GITHUB HOSTED RUNNERS** : When we run or build a CI project on github, github have the runner. we dont have any ownership to the runner.
+3) When it comes to enterpirse or private project, Runner provided by github is not expected to run for our application wch needs more cpu or ram like that, then we will go with self hosted runners (Security, private repo's, runner not matching with the requirements) -- SELF HOSTED RUNNERS
+4) Use only Http and HTTPS ports -- in inbound and out bound rules --- EC2 instances.
+
+5) 
+
+
+
+# -------
+
 ## Comparing with Jenkins 
 
 ### Advantages of GitHub Actions over Jenkins
